@@ -4,7 +4,7 @@ from reporter_tool.reporter import Reporter
 import random
 
 # Set the directory
-Reporter.directory = 'Results'
+Reporter.create_results_directory('Results')
 
 # Setup a report to collect external reward data
 Reporter.setup("ext_reward", "time step", type=Reporter.Type.PLOT)

@@ -12,9 +12,9 @@ This separates the responsibility of data collection and graph plotting from the
 ### Plot a single graph on a single figure
 
 #### Step 1: Set result directory
-Set the Reporter's working directory
+Create the Result directory
 ```
-Reporter.directory = 'Results'
+Reporter.create_results_directory('Results')
 ```
 #### Step 2: Setup report for variable
 A one-time setup for each variable. For example, to collect external reward over some time step:
