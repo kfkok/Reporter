@@ -11,8 +11,7 @@ This separates the responsibility of data collection and graph plotting from the
 ## Usage
 ### Plot a single graph on a single figure
 
-#### Step 1: Set result directory
-Create the Result directory
+#### Step 1: Create the result directory
 ```
 Reporter.create_results_directory('Results')
 ```
